@@ -1,7 +1,7 @@
 # webpack_T
 > 一个简单直白的 webpack 新手案例
 
-## 安装环境
+### 安装环境
 * 安装 node.js
 * 安装 淘宝镜像   $ npm install cnpm -g --registry=https://registry.npm.taobao.org
 * 安装 依赖包   $npm install
@@ -19,7 +19,7 @@
 * 查看 webpack 版本信息   $ npm info webpack
 * 使用 Webpack 开发工具，要单独安装   $ npm install webpack-dev-server --save-dev
 
-## 使用	
+### 使用	
 * 创建一个静态页面 index.html ，一个Js入口文件 entry.js
 
 1. index.html
@@ -34,7 +34,7 @@
 
 > 再次，编译打包
 
-## Loader
+### Loader
 
 > webpack 本身只处理javascript 模块，通过loader转换后才能处理其他类型的文件
 
@@ -48,7 +48,7 @@
 
 > 再次，编译打包
 
-## 配置文件 
+### 配置文件 
 
 * 在根目录创建 package.json ，添加webpack 需要的依赖
 
@@ -62,7 +62,7 @@
  
 > 命令行 执行 webpack entry.js bundle.js --module-bind 'css=style-loader!css-loader' 
 
-## 插件
+### 插件
 
 * BannerPlugin 内置插件，作用：给输出的文件头部添加注释信息
 
@@ -70,7 +70,7 @@
 
 > 配置文件 执行  $ webpack （打开 bundle.js，可以看到文件头部出现了我们指定的注释信息）
 
-## 开发环境
+### 开发环境
 
 * 当项目逐渐变大，webpack 的编译时间会变长，可以通过参数让编译的输出内容带有进度和颜色。
 
